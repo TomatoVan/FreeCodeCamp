@@ -1,4 +1,11 @@
-const FCC = "freeCodeCamp"; // Change this line
-let fact = "is cool!"; // Change this line
-fact = "is awesome!";
-console.log(FCC, fact); // Change this line
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Only change code below this line
+  const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
+
+
+// Only change code above this line
